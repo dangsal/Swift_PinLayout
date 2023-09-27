@@ -7,6 +7,8 @@
 
 import UIKit
 
+import PinLayout
+
 final class PinViewController: UIViewController {
     
     override func viewDidLoad() {
