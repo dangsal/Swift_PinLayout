@@ -13,6 +13,7 @@
 		D72314902AC3F6BE00D69742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D723148E2AC3F6BE00D69742 /* Main.storyboard */; };
 		D72314922AC3F6BE00D69742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72314912AC3F6BE00D69742 /* Assets.xcassets */; };
 		D72314952AC3F6BE00D69742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72314932AC3F6BE00D69742 /* LaunchScreen.storyboard */; };
+		D723149D2AC3F72300D69742 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D723149C2AC3F72300D69742 /* PinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D72314912AC3F6BE00D69742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D72314942AC3F6BE00D69742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D72314962AC3F6BE00D69742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D723149C2AC3F72300D69742 /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D72314882AC3F6BE00D69742 /* AppDelegate.swift */,
 				D723148A2AC3F6BE00D69742 /* SceneDelegate.swift */,
 				D723148C2AC3F6BE00D69742 /* ViewController.swift */,
+				D723149C2AC3F72300D69742 /* PinViewController.swift */,
 				D723148E2AC3F6BE00D69742 /* Main.storyboard */,
 				D72314912AC3F6BE00D69742 /* Assets.xcassets */,
 				D72314932AC3F6BE00D69742 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D723149D2AC3F72300D69742 /* PinViewController.swift in Sources */,
 				D723148D2AC3F6BE00D69742 /* ViewController.swift in Sources */,
 				D72314892AC3F6BE00D69742 /* AppDelegate.swift in Sources */,
 				D723148B2AC3F6BE00D69742 /* SceneDelegate.swift in Sources */,
@@ -300,6 +304,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
